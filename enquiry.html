@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Enquiry</title>
+    <link rel="shortcut icon" href="/img/training.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    
+    <!-- <link rel="stylesheet" href="enquirystyle.css"> -->
+    <style>
+        body{
+            background: linear-gradient(rgb(114, 136, 199), rgb(226, 114, 166));
+        }
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <div id="head">
+        <h1>Quick Enquiry</h1>
+    </div>
+    <div id="form">
+        <form action="">
+            <label for="name" class="label">Name</label>
+            <input type="text" name="name" id="name" class="input" placeholder="Enter your Name" autocomplete="off" required><br>
+            <label for="email" class="label">Email ID</label>
+            <input type="email" name="email" id="email" class="input" placeholder="Enter your Email" autocomplete="off" required><br>
+            <label for="mobileno" class="label">Mobile No</label>
+            <input type="mnumber" name="mnumber" id="mnumber" class="input" placeholder="Enter your Mobile no" autocomplete="off" required><br>
+            <label for="whatsapp" class="label">Whatsapp No</label>
+            <input type="number" name="wnumber" id="wnumber" class="input" placeholder="Enter your Whatsapp no" autocomplete="off" required><br>
+            <label for="select_course" class="label">Courses</label>
+            <select class="input">
+                <option value="courses">Select course</option>
+                <option value="frontend">FrontEnd</option>
+                <option value="backend">BackEnd</option>
+                <option value="fullstack">Fullstack</option>
+            </select>
+            <div id="btn">
+            <button onclick="submitbtn()"  class="button">Submit</button>
+            </div>
+
+        </form>
+    </div>
+    
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>

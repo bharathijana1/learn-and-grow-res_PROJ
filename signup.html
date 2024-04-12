@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn & Grow</title>
+    <link rel="shortcut icon" href="/img/download.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login._singup_style.css">
+    <style>
+        body{
+            background-color: rgba(245, 245, 245, 0.959);
+        }
+    </style>
+
+</head>
+<body onload="ran()">
+    <div id="heading">
+        <div id="logo">
+            <div id="logo_image">
+            <img src="/img/download.png" alt="logo" id="logo_img">
+            </div>
+            <div id="ins_name">
+            <h1>Learn & Grow</h1>
+            </div>
+        </div>
+        
+            <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login/Singup</a></li>
+                <!-- <li><a href="signup.html">Singup</a></li> -->
+                <!--<li>Login/Singup
+                     <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Singup</a></li>
+                    </ul> -->
+                </li>    
+                <li><a href="services.html">Courses</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            </div>
+    </div>
+
+<div id="loginpage">
+        <div class="Login_heading">
+                <h1>Singup</h1>
+        </div>
+<div id="container1">
+    <div class="content1">
+        <form action="" id="login_form"> 
+               <label for="name" class="label">User Name</label>
+                <input type="text" placeholder="User Name" required class="input"><br>
+                <label for="email" class="label">Email</label>
+                <input type="email" placeholder="Email id" required class="input"><br>
+                <label for="password" class="label">Password</label>
+                <input type="password" placeholder="Password" required class="input" id="pass_word"><br>
+                <label for="confirm_password" class="label">Confirm Password</label>
+                <input type="password" placeholder="Password" required class="input" id="confirm_password"><br>
+                <button class="label" id="submit"></button>
+                <input type="text" placeholder="Enter Capcha" class="input" id="inputcapcha"><br>
+                <img src="img/rotate.png" alt="icon" class="referesh_icon" onclick="ran()">
+
+                <div class="btn">
+                <button class="button" onclick="refe()">Signup</button>
+                </div>
+        </form>
+            <div class="togosignuporlogin">
+                <p class="dontaccount">Already have an account</p>
+                <a href="login.html" class="link">Login page</a>
+            </div>
+        </div>
+
+            <!-- <div class="backtohome">
+                <a href="index.html" class="backtohometext">Back to home</a>
+            </div> -->
+
+    </div>
+</div>      
+    
+<footer id="footer">
+    <div class="holefloat">
+        <div class="float_img">
+        
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15562.629442857822!2d80.19046460222474!3d12.800738793908634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259bfec06b9f1%3A0x8a47e66fb2ce54af!2sMambakkam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1712588407010!5m2!1sen!2sin" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="addr">
+        <h2>Address:</h2>
+    <div id="address">
+        <a href="https://maps.app.goo.gl/SMKcaUh2n7iqiGLS6" target="_blank">
+        <img src="/img/location blue.png" alt="contact" class="icon">
+        </a>
+        <p>1/E75 MGR Street ,<br>
+        Sonalur,<br>
+        Mambakkam Post,<br>
+        Chengalpattu Dist. <br>
+        Chennai 600127.
+        </p>
+    </div>
+    <!-- contact -->
+    <h2>Contact Number:</h2>
+        <div id="contact">
+            <a href="tel:+6383765538">
+                <img src="/img/phone blue.png" alt="contact" class="icon">
+                6383765538                
+            </a>
+    
+        </div>
+    <!-- email contact -->
+        <h2>Email Address:</h2>
+        <div id="email">
+            <a href="mailto:bharathi.jana01@gmail.com">
+            <img src="/img/email blue.png" alt="email" class="icon">
+            bharathi.jana01@gmail.com
+            </a>
+
+        </div>
+    </div> 
+
+
+
+
+<div id="copyright">
+        <p>Copyright 2024 &copy; Learn & Grow. All Rights Reserved.</p>
+</div>
+
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
