@@ -30,7 +30,7 @@ else if((pass_word != confirm_password) || (pass_word == " ") || (confirm_passwo
 
 
 
-//contact us form connect function
+//contact form function
 function contactus_form_connt(){
   window.location.href = 'contactus.html';
 }
@@ -60,8 +60,8 @@ function contactus_form_connt(){
 
 
 const menu = document.querySelector('.menu');
-const menuList = document.querySelector('ul');
+const menuList = document.querySelector('nav ul');
 menu.addEventListener('click',()=>{
     menuList.classList.toggle('showmenu')
-    console.log("hellow");
+    console.log("hellow")
 })
