@@ -7,35 +7,33 @@
     <link rel="shortcut icon" href="/img/download.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="service_style.css">
-    <!-- <link rel="stylesheet" href="service_style.css"> -->
+    <link rel="stylesheet" href="login._singup_style.css">
+    <link rel="stylesheet" href="navstyle.css">
 </head>
 <body>
-<div id="heading">
-    <div id="logo">
-        <div id="logo_image">
-        <img src="/img/download.png" alt="logo" id="logo_img">
+    <nav>
+        <div class="logo">
+            <div class="logoimg">
+                <img src="/img/download.png" alt="logo" id="logo_img">
+            </div>
+            <div class="logoname">
+                <a href="">Learn and Grow</a>
+            </div>
+
         </div>
-        <div id="ins_name">
-        <h1>Learn & Grow</h1>
-        </div>
-    </div>
-    
-        <div id="nav">
-        <ul>
+        <ul >
             <li><a href="index.html">Home</a></li>
             <li><a href="login.html">Login/Singup</a></li>
-            <!-- <li><a href="signup.html">Singup</a></li> -->
-            <!--<li>Login/Singup
-                 <ul>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="signup.html">Singup</a></li>
-                </ul> -->
-            </li>    
             <li><a href="services.html">Courses</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
         </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
         </div>
-</div>
+    </nav>
+
 <!-- introduction content -->
 <div id="container">
         <div id="intro_content">
@@ -54,56 +52,16 @@
        
     
         <div id="btn1">
-        <button onclick="enquery_form_connt()" class="button1">Enquire Now</button>
+        <button onclick="contactus_form_connt()" class="button1">Enquire Now</button>
         </div>
 
     </div>
         <div id="second_para">
             <!-- <div class="slideshow-container"> -->
                 <div class="mySlides1">
-                  <img src="/img/11.avif" alt="image"  class="slide_img">
+                  <img src="/img/web.jpg" alt="image"  class="slide_img">
                 </div>
-              
-                <div class="mySlides1">
-                  <img src="/img/12.avif" alt="image" class="slide_img">
-                </div>
-
-                <div class="mySlides1">
-                    <img src="/img/13.avif" alt="image"  class="slide_img">
-                  </div>
-
-                  <div class="mySlides1">
-                    <img src="/img/14.avif" alt="image" class="slide_img">
-                  </div>
-
-                  <div class="mySlides1">
-                    <img src="/img/15.avif" alt="image"  class="slide_img">
-                  </div>
-                  <div class="mySlides1">
-                    <img src="/img/16.avif" alt="image"  class="slide_img">
-                  </div>
-
-                  <div class="mySlides1">
-                    <img src="/img/17.avif" alt="image" class="slide_img">
-                  </div>
-
-                  <div class="mySlides1">
-                    <img src="/img/18.avif" alt="image"  class="slide_img">
-                  </div>
-                  
-                  <div class="mySlides1">
-                    <img src="/img/web.jpg" alt="image"  class="slide_img">
-                  </div>
-
-          
-            <div id="footer_slide">
-              <button onclick="plusSlides(-1, 0)">
-                <span> < </span>
-              </button>
-              <button onclick="plusSlides(1, 0)">
-                <span> > </span>
-              </button>
-            </div>
+   
         </div>
     </div>
 <!--  services contents -->
@@ -187,13 +145,17 @@
 
 
 
+
 <footer id="footer">
-    <div class="holefloat">
-        <div class="float_img">
-        
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15562.629442857822!2d80.19046460222474!3d12.800738793908634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259bfec06b9f1%3A0x8a47e66fb2ce54af!2sMambakkam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1712588407010!5m2!1sen!2sin" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+
+    <div class="holefloat1">
+
+        <div class="float_img"> 
+            <iframe id="iframewandh" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15562.629442857822!2d80.19046460222474!3d12.800738793908634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259bfec06b9f1%3A0x8a47e66fb2ce54af!2sMambakkam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1712588407010!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
     <div id="addr">
+
         <h2>Address:</h2>
     <div id="address">
         <a href="https://maps.app.goo.gl/SMKcaUh2n7iqiGLS6" target="_blank">
@@ -206,6 +168,7 @@
         Chennai 600127.
         </p>
     </div>
+
     <!-- contact -->
     <h2>Contact Number:</h2>
         <div id="contact">
@@ -215,6 +178,7 @@
             </a>
     
         </div>
+
     <!-- email contact -->
         <h2>Email Address:</h2>
         <div id="email">
@@ -224,17 +188,17 @@
             </a>
 
         </div>
+        
     </div> 
 
 
-
+</div>
 
 <div id="copyright">
         <p>Copyright 2024 &copy; Learn & Grow. All Rights Reserved.</p>
 </div>
 
-</footer>
-   
+</footer>   
     <script src="script.js"></script>
 
 </body>
