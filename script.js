@@ -1,20 +1,3 @@
-function submitbtn(){
-    let name = document.getElementById("name");
-    let mnumber = document.getElementById("mnumber");
-    let email = document.getElementById("email");
-    let wnumber = document.getElementById("wnumber");
-    
-    if((name == " ")|| (email == " ") || (mnumber == " ") || (wnumber == " ")){
-        alert("Pls Fill the form");
-        console.log("wrong");
-}
-else{
-    alert("your form is successfully submited");
-    console.log("correct");x
-}
-        // alert("your form is successfully submited");
-}
-
 var randomnum;
 function ran(){
 var a = Math.random();
@@ -46,65 +29,39 @@ else if((pass_word != confirm_password) || (pass_word == " ") || (confirm_passwo
 }
 
 
-//image slide
-/*
-var x = [
-    // "/img/1.jpg",
-    "/img/2.jpg",
-    "/img/3.jpg",
-    "/img/4.jpg",
-    "/img/5.png",
-    "/img/6.png",
-    "/img/7.png",
-    "/img/8.jpg",
 
-  ];
-  var images = document.getElementById("images");
-  var count = -1;
-  function forward() {
-    count = count + 1;
-    if (count <= x.length) {
-    if (count == x.length) {
-        count = 0; 
-      }
-      images.src = x[count];
-    }
-    console.log(count);
-  }
-  function backward() {
-    count = count - 1;
-    if (count < x.length) {
-      if (count == -1 || count == -2) {
-        index = x.length - 1;
-        count = index;
-      }
-      images.src = x[count];
-    }
-    console.log(count);
-  }
-*/
-
-// enquery form function
-function enquery_form_connt(){
-  window.location.href = 'enquiry.html';
+//contact us form connect function
+function contactus_form_connt(){
+  window.location.href = 'contactus.html';
 }
 
-let slideIndex = [1,1];
-let slideId = ["mySlides1", "mySlides2"]
-showSlides(1, 0);
-showSlides(1, 1);
 
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
 
-function showSlides(n, no) {
-  let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
+// // image slide
+// let slideIndex = [1,1];
+// let slideId = ["mySlides1", "mySlides2"]
+// showSlides(1, 0);
+// showSlides(1, 1);
+
+// function plusSlides(n, no) {
+//   showSlides(slideIndex[no] += n, no);
+// }
+
+// function showSlides(n, no) {
+//   let i;
+//   let x = document.getElementsByClassName(slideId[no]);
+//   if (n > x.length) {slideIndex[no] = 1}    
+//   if (n < 1) {slideIndex[no] = x.length}
+//   for (i = 0; i < x.length; i++) {
+//      x[i].style.display = "none";  
+//   }
+//   x[slideIndex[no]-1].style.display = "inline";  
+// }
+
+
+const menu = document.querySelector('.menu');
+const menuList = document.querySelector('ul');
+menu.addEventListener('click',()=>{
+    menuList.classList.toggle('showmenu')
+    console.log("hellow");
+})
