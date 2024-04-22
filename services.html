@@ -8,176 +8,138 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="service_style.css">
     <link rel="stylesheet" href="login._singup_style.css">
+    <link rel="stylesheet" href="navstyle.css">
+    <style>
+        .li ul{
+            display: block;
+        }
+    </style>
+
+
 </head>
 <body>
-    <div id="heading">
-        <div id="logo">
-            <div id="logo_image">
-            <img src="/img/download.png" alt="logo" id="logo_img">
+    <nav>
+        <div class="logo">
+            <div class="logoimg">
+                <img src="/img/download.png" alt="logo" id="logo_img">
             </div>
-            <div id="ins_name">
-            <h1>Learn & Grow</h1>
+            <div class="logoname">
+                <a href="">Learn and Grow</a>
             </div>
-        </div>
-        
-            <div id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="login.html">Login/Singup</a></li>
-                <!-- <li><a href="signup.html">Singup</a></li> -->
-                <!--<li>Login/Singup
-                     <ul>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="signup.html">Singup</a></li>
-                    </ul> -->
-                </li>    
-                <li><a href="services.html">Courses</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
-            </div>
-    </div>
-    
-<div id="container_services">
-    <div id="content_services">
-        <div id="frontend">
-            <h1>FrontEnd Development</h1>
-        <div class="holefloat">
-            <div class="float_img">
-            <img src="/img/frontend.jpg" alt="frontend_img" class="courses_img">
-            </div>
-            <div class="floatcont">
-            <h3 class="covered_course">Covered Courses</h3>
-            <div class="li">
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>BOOTSTRAP</li>
-                <li>JAVASCRIPT</li>
-                <li>REACTJS / ANGULARJS</li>
-            </ul>
-            </div>
-        </div>
-    </div>
-            <p id="intro" class="para">Welcome to Learn & Grow Institute, your premier destination for mastering frontend development. Frontend development is the process of creating the visible parts of a website or web application thatusers interact with directly. It involves using technologies such as HTML, CSS, and JavaScript to build user interfaces and ensure seamless functionality across various devices and browsers.</p>
-            <p id="html" class="para">HTML (Hypertext Markup Language) serves as the foundation of web development, providing the structure and content of web pages. It defines the layout of elements such as text, images, and multimedia, enabling developers to create well-organized and accessible websites.</p>
-            <p id="css" class="para">CSS (Cascading Style Sheets) is used to style HTML elements and enhance the visual appearance of web pages. With CSS, developers can customize colors, fonts, spacing, and layout, ensuring a consistent and visually appealing design across different devices.</p>
-            <p id="js" class="para">JavaScript is a dynamic programming language that adds interactivity and functionality to web pages. It allows developers to create interactive features such as animations, form validation, and dynamic content updates, enhancing user engagement and experience.</p>
-            <p id="bs" class="para">Bootstrap is a popular front-end framework that simplifies the process of building responsive and mobile-friendly websites. It provides pre-designed components, layouts, and CSS styles, allowing developers to create professional-looking web interfaces quickly and efficiently.</p>
-            <p id="rs" class="para">ReactJS is a powerful JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and manage the state of web applications efficiently. With its component-based architecture and virtual DOM (Document Object Model), ReactJS facilitates the development of scalable and maintainable web applications.</p>
-            <p id="desc" class="para">At Learn & Grow Institute, our frontend development courses cover all these essential technologies, empowering you to become a proficient frontend developer. Whether you're a beginner or an experienced coder, our expert-led programs provide hands-on training and real-world projects to help you master the fundamentals and advance your skills in frontend development.</p>
 
         </div>
-        <div id="backend">
-            <h1>Backend Development</h1>
+        <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login/Singup</a></li>
+            <li><a href="services.html">Courses</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    
+    <div id="container_services">
+        <div id="content_services">
+            <div id="frontend">
+                <h1>FrontEnd Development</h1>
             <div class="holefloat">
                 <div class="float_img">
-            <img src="/img/backend.jpg" alt="backend_img" class="courses_img">
+                <img src="/img/frontend.jpg" alt="frontend_img" class="courses_img1">
                 </div>
-            <div class="floatcont">            
-            <h3 class="covered_course">Covered Courses</h3>
-            <div class="li">
-            <ul>
-                <li>JAVA/C /C++/PYTHON/PHP</li>
-                <li>MYSQL</li>
-                <li>SPRING BOOT</li>
-            </ul>
-            </div>
-        </div>
-    </div>            
-            <p id="sql" class="para">Backend development is the foundation of web applications, responsible for handling server-side operations and database management. It involves using technologies such as Java, MySQL, and Spring Boot to build robust and scalable backend systems.</p>
-            <p id="java" class="para">Java is a versatile programming language widely used in backend development for its platform independence and strong community support. With Java, developers can create server-side applications, implement business logic, and handle complex computations efficiently.</p>
-        </div>
-        <div id="fullstack">
-            <h1>Fullstack Development</h1>
-            <div class="holefloat">
-                <div class="float_img">
-            <img src="/img/fullstack.jpg" alt="fullstack" class="courses_img">
+                <div class="floatcont">
+                <h3 class="covered_course">Covered Courses</h3>
+                <div class="li">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>JAVASCRIPT</li>
+                    <li>REACTJS / ANGULARJS</li>
+                </ul>
                 </div>
-            <div class="floatcont">
-            <h3 class="covered_course">Covered Courses</h3>
-            <div class="li">
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>BOOTSTRAP</li>
-                <li>JAVASCRIPT</li>
-                <li>REACTJS / ANGULARJS</li>
-                <li>UI DESINING</li>
-                <li>UX DESINGING</li>
-                <li>JAVA/C/C++/PHYTHON/PHP</li>
-                <li>MYSQL</li>
-                <li>SPRING BOOT</li>
-            </ul>
             </div>
         </div>
-    </div>            
-            <P class="para">Full-stack development involves working on both the frontend and backend components of web applications, covering a wide range of technologies and skills.</P>
-            <P class="para">HTML, CSS, and JavaScript form the foundation of frontend development, allowing developers to create visually appealing and interactive user interfaces. HTML provides the structure, CSS handles the styling, and JavaScript adds interactivity and functionality to web pages.</P>
-
-
-        </div>
-    </div>
-    </div>
-
-    <div id="course">
-        <p>Courses are available ONLINE & OFFLINE</p>
-        <div class="btn">
-
-        <button class="button"><a href="enquiry.html">Enquire Now</a></button>
-    </div>
-    </div>
-
-    <footer id="footer">
-        <div class="holefloat">
-            <div class="float_img">
-            
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15562.629442857822!2d80.19046460222474!3d12.800738793908634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259bfec06b9f1%3A0x8a47e66fb2ce54af!2sMambakkam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1712588407010!5m2!1sen!2sin" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div id="addr">
-            <h2>Address:</h2>
-        <div id="address">
-            <a href="https://maps.app.goo.gl/SMKcaUh2n7iqiGLS6" target="_blank">
-            <img src="/img/location blue.png" alt="contact" class="icon">
-            </a>
-            <p>1/E75 MGR Street ,<br>
-            Sonalur,<br>
-            Mambakkam Post,<br>
-            Chengalpattu Dist. <br>
-            Chennai 600127.
-            </p>
-        </div>
-        <!-- contact -->
-        <h2>Contact Number:</h2>
-            <div id="contact">
-                <a href="tel:+6383765538">
-                    <img src="/img/phone blue.png" alt="contact" class="icon">
-                    6383765538                
-                </a>
-        
-            </div>
-        <!-- email contact -->
-            <h2>Email Address:</h2>
-            <div id="email">
-                <a href="mailto:bharathi.jana01@gmail.com">
-                <img src="/img/email blue.png" alt="email" class="icon">
-                bharathi.jana01@gmail.com
-                </a>
+                <p id="intro" class="para">Welcome to Learn & Grow Institute, your premier destination for mastering frontend development. Frontend development is the process of creating the visible parts of a website or web application thatusers interact with directly. It involves using technologies such as HTML, CSS, and JavaScript to build user interfaces and ensure seamless functionality across various devices and browsers.</p>
+                <p id="html" class="para">HTML (Hypertext Markup Language) serves as the foundation of web development, providing the structure and content of web pages. It defines the layout of elements such as text, images, and multimedia, enabling developers to create well-organized and accessible websites.</p>
+                <p id="css" class="para">CSS (Cascading Style Sheets) is used to style HTML elements and enhance the visual appearance of web pages. With CSS, developers can customize colors, fonts, spacing, and layout, ensuring a consistent and visually appealing design across different devices.</p>
+                <p id="js" class="para">JavaScript is a dynamic programming language that adds interactivity and functionality to web pages. It allows developers to create interactive features such as animations, form validation, and dynamic content updates, enhancing user engagement and experience.</p>
+                <p id="bs" class="para">Bootstrap is a popular front-end framework that simplifies the process of building responsive and mobile-friendly websites. It provides pre-designed components, layouts, and CSS styles, allowing developers to create professional-looking web interfaces quickly and efficiently.</p>
+                <p id="rs" class="para">ReactJS is a powerful JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and manage the state of web applications efficiently. With its component-based architecture and virtual DOM (Document Object Model), ReactJS facilitates the development of scalable and maintainable web applications.</p>
+                <p id="desc" class="para">At Learn & Grow Institute, our frontend development courses cover all these essential technologies, empowering you to become a proficient frontend developer. Whether you're a beginner or an experienced coder, our expert-led programs provide hands-on training and real-world projects to help you master the fundamentals and advance your skills in frontend development.</p>
     
             </div>
-        </div> 
+            <div id="backend">
+                <h1>Backend Development</h1>
+                <div class="holefloat">
+                    <div class="float_img">
+                <img src="/img/backend.jpg" alt="backend_img" class="courses_img1">
+                    </div>
+                <div class="floatcont">            
+                <h3 class="covered_course">Covered Courses</h3>
+                <div class="li">
+                <ul>
+                    <li>JAVA/C /C++/PYTHON/PHP</li>
+                    <li>MYSQL</li>
+                    <li>SPRING BOOT</li>
+                </ul>
+                </div>
+            </div>
+        </div>            
+                <p id="sql" class="para">Backend development is the foundation of web applications, responsible for handling server-side operations and database management. It involves using technologies such as Java, MySQL, and Spring Boot to build robust and scalable backend systems.</p>
+                <p id="java" class="para">Java is a versatile programming language widely used in backend development for its platform independence and strong community support. With Java, developers can create server-side applications, implement business logic, and handle complex computations efficiently.</p>
+            </div>
+            <div id="fullstack">
+                <h1>Fullstack Development</h1>
+                <div class="holefloat">
+                    <div class="float_img">
+                <img src="/img/fullstack.jpg" alt="fullstack" class="courses_img1">
+                    </div>
+                <div class="floatcont">
+                <h3 class="covered_course">Covered Courses</h3>
+                <div class="li">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>JAVASCRIPT</li>
+                    <li>REACTJS / ANGULARJS</li>
+                    <li>UI DESINING</li>
+                    <li>UX DESINGING</li>
+                    <li>JAVA/C/C++/PHYTHON/PHP</li>
+                    <li>MYSQL</li>
+                    <li>SPRING BOOT</li>
+                </ul>
+                </div>
+            </div>
+        </div>            
+                <P class="para">Full-stack development involves working on both the frontend and backend components of web applications, covering a wide range of technologies and skills.</P>
+                <P class="para">HTML, CSS, and JavaScript form the foundation of frontend development, allowing developers to create visually appealing and interactive user interfaces. HTML provides the structure, CSS handles the styling, and JavaScript adds interactivity and functionality to web pages.</P>
+    
+    
+            </div>
+        </div>
+        </div>
+    
+        <div id="course">
+            <p>Courses are available ONLINE & OFFLINE</p>
+            <div class="btn">
+    
+            <button class="button"><a href="contactus.html">Enquire Now</a></button>
+        </div>
+        </div>
     
     
     
     
-    <div id="copyright">
-            <p>Copyright 2024 &copy; Learn & Grow. All Rights Reserved.</p>
-    </div>
     
-    </footer>
-
-
-
-
+    
+    
+    
+    
+    <script src="script.js"></script>
 
 
 
