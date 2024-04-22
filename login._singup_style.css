@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* login style */
+/* login and singup for laptop */
+
+@media only screen and (min-width:551px) {
+    
+
+
 body{
     width: 100%;
     min-height: 100vh;
@@ -24,12 +31,12 @@ body{
     align-items: center;
     flex-direction: column;
     margin: auto;
-    width: 60%;
+    width: 70%;
     padding: 30px;
     padding-top: 6px;
   }
 .input{
-    width: 60%;
+    width: 57%;
     padding: 15px;
     margin: 5px;
     border-radius: 10px;
@@ -47,12 +54,13 @@ body{
     padding: 10px;
     margin: 10px;
     color: black;
-    /* font-size: 25px; */
     letter-spacing: 1px;
+    font-size: 20px;
+
 }
 #login_form{
     width: 100%;
-    padding: 15px;
+    padding: 35px;
     margin: 20px;
     box-shadow: 1px 1px 15px rgba(124, 124, 124, 0.877);
     border-radius: 20px;
@@ -96,4 +104,211 @@ body{
     width: 50px;
     height: 50px;
     margin-left: 60px;
+}
+
+
+
+/* fotter for laptop */
+footer{
+    background-color: rgb(1, 11, 36);
+    padding: 10px;
+}
+#copyright{
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    margin: 2px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.holefloat1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#addr{
+    flex-wrap: wrap;
+    width: 500px;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+}
+#email>a, #contact>a{
+    color: white;
+    text-decoration: none;
+}
+
+#addr>h2{
+    font-size: 28px;
+    padding: 10px 0px;
+}
+#address, #contact, #email{
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 550px) {
+
+.Login_heading{
+    text-align: center;
+    padding-top: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button{
+    padding: 13px;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 1px 10px rgba(77, 76, 76, 0.849);
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(83, 81, 81, 0.952);
+    background-color: rgba(27, 27, 27, 0.911);
+}
+
+.label{
+    display: block;
+    width: 90%;
+    padding: 2px;
+    margin: 5px;
+    color: black;
+    font-size: 25px;
+    padding-left: 7px;
+}
+
+.input{
+    width: 90%;
+    padding: 9px;
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.rem;
+    border: 1px solid rgba(136, 135, 135, 0.815);
+    box-shadow: 0 0 0px 0.2px rgb(83, 80, 80);
+    background-color: rgba(233, 223, 223, 0.3);
+    font-size: 20px;
+
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.togosignuporlogin{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.input:hover {
+    border: 1px solid rgb(85, 82, 82);
+
+}
+.referesh_icon{
+    width: 50px;    
+    height: 50px;
+    
+}
+.reficon{
+    text-align: center;
+    padding: 5px;
+}
+.input:active {
+    border: 1px solid rgb(196, 196, 196);
+}
+.button:active {
+    border: 1px solid rgb(129, 123, 123);
+    background-color: black;
+}
+
+
+
+/* footer for mobile */
+
+
+footer{
+    background-color: rgb(1, 11, 36);
+    padding: 10px;
+}
+#copyright{
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    margin: 2px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.holefloat1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+
+}
+
+#addr{
+    flex-wrap: wrap;
+    width: 500px;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+}
+#email>a, #contact>a{
+    color: white;
+    text-decoration: none;
+}
+
+#addr>h2{
+    font-size: 28px;
+    padding: 10px 0px;
+}
+#address, #contact, #email{
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+#iframewandh{
+    width: 95%;
+    height: 300px;
+
+
+}
+
+
+
+
 }
