@@ -241,6 +241,9 @@ form>button{
 @media only screen and (max-width: 700px) {
 
         /* courses style for moble */
+        .li ul li{
+            text-align: left;
+        }
 
         .holefloat{ 
             margin: 20px;
@@ -542,7 +545,7 @@ form>button{
 }
 
 }
-/* index page corses style for mobile */
+/* index page courses style for mobile */
 @media only screen and (max-width: 700px) {
 
     .courses_heading{
