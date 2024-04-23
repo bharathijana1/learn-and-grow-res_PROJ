@@ -13,7 +13,35 @@ body{
 @media only screen and (min-width:601px) {
 
     /* intro content style for laptop view */
+#search_arrow{
+    height: 50px;
+    width: 80px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 24px;
+}
+#search_input_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search_bar{
+    height: 50px;
+    width: 300px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(168, 147, 147, 0.815);
+    box-shadow: 0 0 0px 0.2px rgb(83, 80, 80);
+    /* background-color: rgba(233, 223, 223, 0.3); */
+    font-size: 20px;
 
+}
+
+#search_bar:hover{
+    border: 1px solid rgb(85, 82, 82);
+}
 #footer_slide{
     display: flex;
     justify-content: space-around;
@@ -100,6 +128,36 @@ body{
 /* intro content style for mobile */
 
 @media only screen and (max-width: 700px) {
+
+    #search_arrow{
+        height: 40px;
+        width: 80px;
+        font-weight: bold;
+        padding: 5px;
+        font-size: 24px;
+    }
+    #search_input_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #search_bar{
+        height: 40px;
+        width: 300px;
+        padding: 3px;
+        font-size: 15px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid rgba(168, 147, 147, 0.815);
+        box-shadow: 0 0 0px 0.2px rgb(83, 80, 80);
+        /* background-color: rgba(233, 223, 223, 0.3); */
+        font-size: 20px;
+    
+    }
+    
+    #search_bar:hover{
+        border: 1px solid rgb(85, 82, 82);
+    }
 
     #intro_content{
         background-color: rgba(158, 224, 250, 0.274);
@@ -200,8 +258,6 @@ body{
         align-items: center;
 
     }
-    
-    
     
     
 
@@ -502,7 +558,7 @@ footer{
     }
     .courses_img2{
         box-shadow: 1px 1px 5px rgb(83, 82, 82);
-        width: 85%;
+        width: 90%;
         height: 60%;
         margin-top: 10px;
     }
