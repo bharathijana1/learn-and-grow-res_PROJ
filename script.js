@@ -35,6 +35,36 @@ function contactus_form_connt(){
   window.location.href = 'contactus.html';
 }
 
+// contact us validation
+function enquiry_form_validation(){
+let commoninput = document.getElementsByClassName("commoninput").value;
+if(commoninput == " "){
+  alert("Pls enter a value");
+}
+else{
+  alert("Submitted");
+  console.log("value entered")
+}
+}
+
+// search bar validation
+
+function searchbar(){
+  let searchinput = document.getElementById("search_bar").value;
+  let searchbtn = document.getElementById("search_arrow");
+  if((searchinput == "frontend")|| (searchinput == "backend")|| (searchinput == "fullstack")|| 
+  (searchinput == "FRONTEND") ||(searchinput == "BACKEND") || (searchinput == "FULLSTACK")){
+    window.location.href = 'services.html';
+  }
+  else if((searchinput == "contact")|| (searchinput == "no")|| (searchinput == "phone no")||
+  (searchinput == "email")|| (searchinput == "whatsapp")|| (searchinput == "contact no")){
+    window.location.href = 'contactus.html';
+  }
+  else{
+    window.location.href = 'index.html';
+
+  }
+}
 
 
 // // image slide
